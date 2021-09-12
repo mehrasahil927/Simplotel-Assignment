@@ -1,0 +1,64 @@
+.main{
+    display:flex;
+    justify-content:space-evenly;
+  }
+  #primary{
+    border:1px solid #f1e5e5;
+    height:700px;
+    width:500px;
+  }
+  #secondary{
+    border:1px solid #f1e5e5;
+    height:700px;
+    width:500px;
+  }
+  #ternary{
+    border:1px solid #f1e5e5;
+    height:700px;
+    width:500px;
+    align-items: center;
+  }
+  .btn-add  {
+    color: whitesmoke;
+    background-color: #ca00ec;
+    height: 40px;
+    border-radius: 7px;
+  }
+  .btn-rem{
+    color: #ca00ec;
+    background-color:#ffffff;
+    height: 40px;
+    border-radius: 7px;
+  }
+  .addtask{
+    color: whitesmoke;
+    background-color: #ca00ec;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 5px;
+  }
+  .input{
+    height: 35px; 
+    margin-top: 5px;
+  }
+  .border{
+    border:2px solid black;
+    height: 100px;
+    width: 400px;
+    margin:40px;
+    border-radius: 10px;
+  }
+  .border1{
+    border:3px solid #ca00ec;
+    background-color: #ca00ec;
+    height: 40px;
+    width:370px;
+    border-radius: 10px;
+    margin-left:15px;
+    margin-top: 25px;
+    animation: progress-animation 20s infinite; 
+  }
+  @keyframes progress-animation{
+    0% {width:0%;}
+    100% {width:80%;}
+    }
