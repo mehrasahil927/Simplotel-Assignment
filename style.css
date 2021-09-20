@@ -1,6 +1,7 @@
 .main{
     display:flex;
-    justify-content:space-evenly;
+  justify-content:space-evenly;
+    
   }
   #primary{
     border:1px solid #f1e5e5;
